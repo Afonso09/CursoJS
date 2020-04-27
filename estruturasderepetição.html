@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Estruturas de repetição</title>
+    </head>
+    <body>
+        <script>
+            // for e while
+        
+        // exibir intervalos.
+        // mais utlizado quando sei o tamanho do intervalo.
+            for (var i = 0; i <= 100; i++){
+                console.log(i);
+            }
+
+        // é mais usado quando não sei quantas vezes o fluxo será executado.
+            var j = 0;
+            while (j > 50){
+                console.log(j);
+
+                j /= 5;
+            }
+
+        // Intervalo e timeout
+            // setInterval = executa varias vezes a função
+        function exibeAlgo(){
+            console.log('Hello World');
+        }
+        setInterval(exibeAlgo, 1000);
+
+        // setTimeout = executa uma vez só deacordo com a quantidade de milisegundos que eu indicar.
+        function exibeAlgo(){
+            console.log('Hello World');
+        }
+        setTimeout(exibeAlgo, 5000);
+        </script>
+    </body>
+</html>
