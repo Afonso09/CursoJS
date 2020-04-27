@@ -2,24 +2,16 @@
     <head>Curso JavaScript</head>
         <body>
             <script>
-                var nome = "Afonso";
-                var idade = 28;
-                var peso = 95.0;
-                var humano = true;
+                // em operações matemáticas não é possível trabalhar com string + inteiro, por exemplo. Só há opração entre números.
+                var x = 10, y = 5, w = 11, r = 7;
 
-                var alunos = ['Afonso', 'Anna Rosa', 'Bento', 'Josefa']
-
-                var aluno = {
-                    nome:  'Afonso',
-                    idade: 28,
-                    peso: 95,
-                    humano: true
-                };
-
-                // acessar apenas um nome no aray uso []
-                console.log(alunos[1]);
-                // no objeto entro com o nome do vetor. propriedade que querp acessar
-                console.log(aluno.peso);
+                var resultado = x + y;
+                var mod = w % r;
+                // incrementar um valor
+                x += 3;
+                console.log(x);
+                console.log(resultado);
+                console.log(mod);              
             </script>
         </body>
     
