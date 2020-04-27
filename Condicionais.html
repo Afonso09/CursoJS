@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Condicionais</title>
+
+        <body>
+            <script>
+            function retornaSexo(sexo) {
+                // Condicional com Switch Case.
+
+                switch (sexo){
+                    case  'M':
+                      return 'Masculino';
+                    case 'F':
+                        return 'Feminino';
+                    default:
+                        return 'Outro';
+                }
+
+                // M, F
+                // MASCULINO, FEMININO
+                // quando uso = é pra indicar que a variável recebe aquele valor.
+                // quando uso == é pra verificar se aquela variável tem determinado valor, se os valores são iguais (true or fase).
+                // quando uso === posso verificar não apenas se o valor das variáveis são iguais, mas também posso verificar se o tipo é igual.
+              
+            // Condicional com If.
+                
+                //if (sexo === 'M'){
+                    //return 'Masculino';
+                   //} else if(sexo === 'F'){
+                    //return 'Feminino'
+                  // }else {
+                    //return Outro;
+                  //}
+                
+
+
+            };
+                var resultado = retornaSexo('M');
+                console.log(resultado);
+            </script>
+        </body>
+    </head>
+</html>
