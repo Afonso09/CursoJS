@@ -10,16 +10,15 @@
 
         <script>
             // querySelector sempre retorna um único elemento. Se eu passar querySelectorAll ele mostra a lista de elementos. 
-          // var inputElement = document.querySelector('div#app input');
-           //console.log(inputElement);
+         
 
             // chamar o alerta de botão clicado via JS.
            var inputElement = document.querySelector('input[name=nome]'); // esse  input chama o texto   digitado dentro do  campo e exibe no alert.
-           var btnElement = document.querySelector('button');
+           var btnElement = document.querySelector('button.botao');
            
            btnElement.onclick = function() {
                 var text = inputElement.value;
-               alert('text');
+               alert(text);
            }
         </script>
     </body>
